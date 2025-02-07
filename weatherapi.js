@@ -1,17 +1,3 @@
-//  let city= document.getElementById('input');
-//  let button= document.getElementsById('btn');
-//  let temp= document.querySelector('.temp');
-//  let desc = document.querySelector('.description');
-// // console.log(document.querySelector(city).innerHTML);
-// button.addEventListener('click', () => {
-//   const inputtext=city.value;
-//   console.log(inputtext);
-// });
-
-// fetch(`http://api.weatherapi.com/v1/current.json?key=867d50ef65c34f0d853123930242607&q=${inputtext}`)     
-// .then(response => response.json())
-//   .then(data => console.log(data))
-//   .catch(error => console.error('Error:', error));
 let temp = document.querySelector('.temp');
 let desc = document.querySelector('.description');
 let image = document.getElementById('image');
@@ -45,8 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
       image.src=img;
       console.log(image)
       image.style.display = 'block';
-      
-    })
+      })
      .catch(error => console.error(error));
   }
 else
