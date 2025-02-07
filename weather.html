@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="header"> 
+        <div class="searchbox">
+            <input type="text" name="input" id="input" placeholder="Islamabad">
+            <button class="fa-solid fa-magnifying-glass btn" id="btn"></button>
+        </div>
+    </div>
+    <div class="weatherdisplay">
+        <p class="temp"><b>0</b></p>
+        <p style="font-size: larger;"><b>(In °C)</b></p>
+        <p class="description">Description</p>
+        <img src="" id="image" alt="image" style="display: none;">
+    </div>
+</div>
+    <script src="weatherapi.js"></script>
+    <script src="https://kit.fontawesome.com/77c637df25.js" crossorigin="anonymous"></script>
+</body>
+</html>
