@@ -2,23 +2,12 @@
     outline: none;
     font-family: 'Times New Roman', Times, serif;
 }
-/* body{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(74, 98, 164, 0.885);
-} */
+
 div {
     display: flex;
     justify-content: center;
   }
-/* .container{
-    background-color: aliceblue;
-    width: 500px;
-    border-radius: 12px ;
-    padding: 30px;
-} */
+
 .searchbox{
     width: 100%;
     height: min-content;
@@ -36,7 +25,7 @@ div {
     height: 50px;
 }
 .btn :hover{
-    background-color: gray;
+    background-color: rgb(130, 114, 114);
 }
 .weatherdisplay{
     display: flex;
